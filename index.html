@@ -3,9 +3,11 @@
 <head>
 	<title>Page Title</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel = "stylesheet" href = "/style.css"
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src = "/app.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 	<script src = "http://codepen.io/erika-harvey/live/KdGdVp"></script>
 	
 	
@@ -18,16 +20,14 @@
 	
 			
 	<div class = "ui-body ui-body-a ui-corner-all">
-		<img id = 
-"logo" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/224685/REDLOGO.jpg">
-			<h3 id = "logotext">TRUCK SPOT
-		</h3>
+		<img id = "logo" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/224685/REDLOGO.jpg">
+		<h3 id = "logotext">TRUCK SPOT</h3>
 		<div class = "ui-body ui-body-b ui-corner-all">
-	<div class = "header"data-role="header">
+		<div class = "header"data-role="header">
 		<h1>SEARCH YOUR LOCATION </h1>
-	</div><!-- /header -->
+			</div><!-- /header -->
 
-	<div role="main" class="ui-content">
+		<div role="main" class="ui-content">
 		<a href = "#popupMap" data-rel = "popup" data-position-to="window" class = "ui-btn ui-corner-all ui-shadow ui-btn-inline">Truck Spot Map</a>
 		<div data-role = "popup" id = "popupMap" data-overlay-theme="a"data-corners = "false" data-tolerance="15,15">
 			<a href = "#" data=rel = "back" class = "ui-btn ui-btn-a ui-corner-all ui-shadow ui-btn-b ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
@@ -36,23 +36,22 @@
 			
 		</div>
 	</div>
-			<button class = "link"><a href = "#search">UpdateYour Settings</a></button>		
-	<ul data-role = "listview"id ="lunch">
-		<li><a  class = "menus"id = "curryUp" href= "http://static1.squarespace.com/static/54090308e4b0ba22079ce4dd/t/54f74681e4b0af5c163e8b57/1425491590250/?format=500w" alt = "curryupnowmenu" data-con="eye" data-conpos="notext"data-shadow="true" data-icon-shadow="true">Curry Up Now: View Menu<a data-rel="back"class = "ui-btn ui-btn-a ui-corner-all ui-shadow ui-btn-b ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a></a></li>
-		<li><a href = "https://s-media-cache-ak0.pinimg.com/736x/f0/5e/18/f05e187fd39b2784cc98595b8ff51294.jpg" class = "menus" id = "sammys"data-con="eye" data-conpos="notext"data-shadow="true" data-icon-shadow="true">Sammy
+		<button class = "link"><a href = "#search">UpdateYour Settings</a></button>		
+		<ul data-role = "listview"id ="lunch">
+			<li><a  class = "menus"id = "curryUp" href= "http://static1.squarespace.com/static/54090308e4b0ba22079ce4dd/t/54f74681e4b0af5c163e8b57/1425491590250/?format=500w" alt = "curryupnowmenu" data-con="eye" data-conpos="notext"data-shadow="true" data-icon-shadow="true">Curry Up Now: View Menu<a data-rel="back"class = "ui-btn ui-btn-a ui-corner-all ui-shadow ui-btn-b ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a></a></li>
+			<li><a href = "https://s-media-cache-ak0.pinimg.com/736x/f0/5e/18/f05e187fd39b2784cc98595b8ff51294.jpg" class = "menus" id = "sammys"data-con="eye" data-conpos="notext"data-shadow="true" data-icon-shadow="true">Sammy
 			s Sammiches: View Menu<a href = "#" data=rel = "back" class = "ui-btn ui-btn-a ui-corner-all ui-shadow ui-btn-b ui-icon-delete ui-btn-icon-notext ui-btn-right"data-rel="back">Close</a></a></li>
 			<li><a href = "https://omnomct.files.wordpress.com/2012/03/melt-mobile-menu-5-7.jpg" class = "menus" id = "meltMobile"data-con="eye" data-conpos="notext"data-shadow="true" data-icon-shadow="true">Melt Mobile: View Menu<a data-rel="back"
-   href="http://codepen.io/erika-harvey/pen/NGOPBw" 
-   onClick="return targetopener(this,true,true)">close</a> </a></li>
-			</ul>
+			 href="http://codepen.io/erika-harvey/pen/NGOPBw" onClick="return targetopener(this,true,true)">close</a> </a></li>
+		</ul>
 			
 	
 	
 
-	<div id = "footer" ui data-role="footer">
-		<h4>Page Footer</h4>
-	</div><!-- /footer -->
-</div><!-- /page -->
+			<div id = "footer" ui data-role="footer">
+			<h4>Page Footer</h4>
+		</div><!-- /footer -->
+	</div><!-- /page -->
 	</div>
 	</div>
 
@@ -74,29 +73,29 @@
 		<li><a href = "#">Chinese</a></li>
 		<li><a href = "#">French</a></li>
 		<li><a href = "#">American</a></li>
-	</ul>
-<ul data-role = "listview" data-inset="true" data-shadow = "false">
-	<li data-role="collapsible" data-conpos="right" data-inset = "false"><h2>Settings</h2>
-	<ul data-role = "listview" data-theme="b">
-	<li><a href = "#billMe">Billing Information</a></li>
-	<li><a href = "#">Change Profile Informaiton</a></li>
 		</ul>
-	</li>
-	<li data-role = "collapsible" data-iconpos="right"data-inset="false"><h2>Reviews</h2>
-	<ul data-role = "listview" data-theme="b">
-	<li><a href = "#">Place A Review</a></li>
-	<li><a href = "#">Read All Reviews</a></li>
-	<li><a href = "#">Read Just Your Previous Reviews</a></li>
-	<li><a href = "#">Read Your Friends Recent Reviews</a></li>
+		<ul data-role = "listview" data-inset="true" data-shadow = "false">
+		<li data-role="collapsible" data-conpos="right" data-inset = "false"><h2>Settings</h2>
+		<ul data-role = "listview" data-theme="b">
+		<li><a href = "#billMe">Billing Information</a></li>
+		<li><a href = "#">Change Profile Informaiton</a></li>
 		</ul>
-	</li>
-	<li data-role="collapsible" data-iconpos="right"data-inset="false">
+		</li>
+		<li data-role = "collapsible" data-iconpos="right"data-inset="false"><h2>Reviews</h2>
+		<ul data-role = "listview" data-theme="b">
+		<li><a href = "#">Place A Review</a></li>
+		<li><a href = "#">Read All Reviews</a></li>
+		<li><a href = "#">Read Just Your Previous Reviews</a></li>
+		<li><a href = "#">Read Your Friends Recent Reviews</a></li>
+		</ul>
+		</li>
+		<li data-role="collapsible" data-iconpos="right"data-inset="false">
 		<h2>Review Past Orders</h2>
 		<ul data-role = "listview" data-theme="b">
-	<li><a href = "#"> View Your Most Recent Order</a></li>
-	<li><a href = "#"> View your last 7 orders</a></li>
+		<li><a href = "#"> View Your Most Recent Order</a></li>
+		<li><a href = "#"> View your last 7 orders</a></li>
 	
-	</ul>
+		</ul>
 		<li>
 		</ul>
 		<p><a href="#foo">Back to foo</a></p>
