@@ -1,0 +1,39 @@
+iframe{
+	border: 3px solid red;
+}
+.ui-corner-all>.ui-header:first-child, .ui-corner-all.ui-content:first-child, .ui-corner-all.ui-footer:first-child {
+	background-color: red;
+	color: 
+	
+	
+}
+#logotext{
+	
+	text-shadow: 3px 3px 3px rgba(0,0,0,1);
+	text-shadow: 4px 4px 4px  rgba(255, 0, 16, 1);
+	
+	text-align: left;
+}
+
+	
+
+#logo{
+	height: 200px;
+	width: 200px;
+	/*margin-left:40%;*/
+	margin-top: 5%;
+	margin-bottom: -50px;
+}
+.link{
+	color:white;
+}
+.ui-content{
+	height:150px;
+	
+}
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
+	background-color: red;
+}
+#main{
+	height: 800px;
+}
